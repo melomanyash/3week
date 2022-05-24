@@ -1,17 +1,30 @@
-.footer-container__content {
-    border-top: 1px solid #9A9A9A;
-    height: 92px;
-    position: relative;
-    margin-bottom: 57px;
+
+.footer {
+    
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-top: 28px;
+    padding-bottom: 38px;
+    margin-top: auto;
+	margin-bottom: 20px;
 }
 
-.contacts__text {
-	font-size: 11px;
+.footer-container__section {
+    border-top: 1px solid #9A9A9A;
 }
+
+.footer-container__content {
+	display: flex;
+	align-items: center;
+}
+.footer-container__content--right {
+	
+	justify-content: flex-end;
+}
+
 .socials {
-    position: absolute;
-    top: 34px;
-    right: 262px;
+   margin-right: 74px;
 }
 
 .socials__item {
@@ -40,4 +53,10 @@
 }
 .socials__item--icon--ig .socials__link {
     background-image: url(../../img/footer--in.png);
+}
+
+.contacts__text {
+	font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A
 }

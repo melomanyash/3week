@@ -5,6 +5,7 @@ html {
 }
 
 body, html {
+	height: 100%;
 	color: #ffffff;
 	font-family: "Open Sans", sans-serif
 }
@@ -59,18 +60,24 @@ img {
 }
 
 .wrapper {
-	overflow: hidden;
-	min-height: 100%;
 	display: flex;
 	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+	min-width: 1200px;
 }
 .main-page-wrapper {
 	background: url(../../img/fon1.jpg) center top no-repeat;
 }
+.footer__section {
+	margin-top: auto;
+}
 
-.container, .hero__container {
+.container {
 	margin: 0 auto;
-	max-width: 1150px;
+	width: 100%;
+	height: 100%;
+	max-width: 1142px;
 }
 
 .logo {
@@ -78,18 +85,18 @@ img {
 	width: 85px;
 	height: 36px;
 	margin-right: 79px;
+
+}
+
+.menu {
 	
 }
 
-.menu {	
-}
-
 .contacts {
+	display: block;
     font-style: normal;
-    text-align: right;
+	text-align: right;
 }
-
-
 
 .menu__item {
 	display: inline-block;
@@ -109,6 +116,8 @@ img {
 
 .button {
 	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
 	cursor: pointer;
 	max-width: max-content;
 	font-size: 14px;
@@ -142,19 +151,20 @@ img {
 }
 
 .paginator {
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.paginator__display, .paginator__list {
-	display: inline-block;
-	vertical-align: middle;
+.paginator__list {
+	display: flex;
+	align-items: center;
 }
 .paginator__display {
 	margin-right: 26px;
 }
 .paginator__item {
-	display: inline-block;
-	vertical-align: middle;
+	text-align: center;
 }
 .paginator__link {
 	display: block;
@@ -176,4 +186,16 @@ img {
 	line-height: 32px;
 	color: #f00707;
 	background: #ffffff
+}
+.paginator--theme--light {
+	color:#000000;
+}
+
+.paginator--theme--light .paginator__link:hover {
+	color: #ffffff;
+	background: #f00707;
+}
+
+.inner-footer__container {
+	
 }

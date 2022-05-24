@@ -1,0 +1,157 @@
+.top-line {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    background: url(../../img/services--slon.png) right 50% top no-repeat
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.top-line__header {
+    padding-top: 28px;
+}
+
+.page__title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 78px;
+}
+.breadcrumbs {
+
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+    font-size: 14px;
+}
+
+.breadcrumbs__item::after {
+    content: "/";
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+.breadcrumbs__item--active {
+    font-weight: bold;
+}
+
+/**
+ * Хедер лайн колчился, мэин начался.
+ */
+
+.page-content {
+    padding-top: 98px;
+    padding-bottom: 85px;
+    background: #fbffff;
+    color: #303030
+}
+
+.service {
+    display: flex;
+}
+.services {
+    margin-bottom: 14px;
+}
+
+.service__img {
+    display: block;
+    width: 460px;
+    height: 333px;
+    margin-right: 56px;
+    margin-bottom: -8px;
+}
+
+.service__content {
+    min-height: 382px;
+    margin-left: 5%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.service__title {
+    margin-top: 16px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 34px;
+    color: #303030;
+}
+
+.service__desc {
+    max-width: 652px;
+    max-height: 362px;
+    line-height: 27px;
+    display: block;
+    margin-bottom: 36px;
+}
+
+.button--serv {
+    margin-bottom: 66px;
+}
+
+.inner-section {
+    background: #fbffff;
+    color:#000;
+    padding-top: 93px;
+    padding-bottom: 97px;
+}
+
+.inner-section__bg--grey {
+    background: #F4F5F5;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 78px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.partners__item {
+    margin-left: 46px;
+    text-decoration: none;
+    display: flex;
+    width: 240px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners__item:nth-child(4n + 1) {
+    margin-left: 0;
+}
+.partners__link {
+    
+}
+
+.inner-footer__container {
+    padding-top: 25px;
+}

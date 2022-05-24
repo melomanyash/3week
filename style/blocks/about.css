@@ -1,20 +1,24 @@
+.about__container {
+    display: flex;
+}
 .about__container:before {
     content: "";
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 490px;
     height: 505px;
     background: url(../../img/about--gates.png);
 }
 .about__content {
     background: url(../../img/about--mountains.png) center center / cover no-repeat;
+    display:flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
     padding: 70px 80px;
-    width: 785px;
+    max-width: 785px;
     height: 455px;
     margin-left: -140px;
     margin-top: 96px;
-    display: inline-block;
-    vertical-align: top;
     color: black;
     margin-bottom: 73px;
 }

@@ -1,0 +1,19 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 25px;
+	margin-bottom: 20px;
+}
+.header__container {
+	display: flex;
+	align-items: center;
+}
+.header__container--right {
+	display: block;
+	justify-content: flex-end;
+}
+.contacts__info {
+	font-size: 13px;
+	text-decoration:underline;
+}
